@@ -17,7 +17,7 @@ automation:
   trigger:
     platform: sun
     event: sunset
-    offset: "-00:45:00"
+    offset: '-00:45:00'
   condition:
     condition: state
     entity_id: group.all_devices
@@ -35,7 +35,7 @@ _Note, Philips Hue is currently the only light platform that support transitions
 automation:
   trigger:
     platform: time
-    after: "07:15:00"
+    after: '07:15:00'
   action:
     service: light.turn_on
     entity_id: light.bedroom
